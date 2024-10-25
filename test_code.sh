@@ -12,7 +12,7 @@ fi
 
 # Paso 2: Compilar el archivo main.c con las bibliotecas 'libftprintf.a' y 'libft.a'
 echo "Compilando test_printf..."
-cc -Wall -Wextra -Werror -o test_printf main.c -L. -lft
+cc -Wall -Wextra -Werror -o test_printf main.c -L. -lftprintf
 
 # Comprobar si la compilación fue exitosa
 if [ $? -ne 0 ]; then

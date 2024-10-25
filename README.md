@@ -18,20 +18,16 @@ It does not check for memory leaks or other faults.
 * %x
 * %X
 * %%
+* mix format
 
 
 # Commands
 
 To run test, copy main.c and test_code.sh into the print directory. 
 
-Compile tests: test_code.sh
+Compile and run tests: test_code.sh
 ```shell
 ./test_code
-```
-
-Run test:
-```shell
-./test_printf
 ```
 
 
@@ -39,7 +35,7 @@ Run test:
 
 * Check the open issues or open a new issue to start a discussion around your feature idea or the bug you found. 
 * Fork the repository, make your changes, and add yourself to AUTHORS.md
-* Send a pull request
+* Send a pull request.
 
 ## ➾ Versioning
 
